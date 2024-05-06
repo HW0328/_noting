@@ -9,14 +9,16 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
-    'corsheaders',
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
     'board',
+    'corsheaders',
+    'push_notifications',
+    'django.contrib.auth',
+    'django.contrib.admin',
+    'django.contrib.sessions',
+    'django.contrib.messages' ,
+    'django.contrib.staticfiles',
+    'django.contrib.contenttypes',
+
 ]
 
 MIDDLEWARE = [
